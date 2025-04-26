@@ -44,8 +44,6 @@
 <h1 id="P1" class="mt-4">Introducción</h1>
     <h3 class="mt-4">¿Qué es un ERP?</h3>
     <p class="text-justify">ERP tiene como significado planificación de recursos empresariales que viene a ser un conjunto de aplicaciones software integradas. Estas herramientas son útiles a la hora de tener un espacio en la que se pueda reunir,gestionar y coordinar información para acceder de una manera más directa y eficiente tanto para las diferentes empresas a la empresas como los propios trabajadores, se utiliza mucho en sectores como logística, contabilidad, control de proveedores, ventas, etc.</p>
-    <img src="img/log_arp.webp" alt="Logistica_arp" class="img-fluid my-3">
-
 
     <h3 class="mt-4">¿Para qué sirve?</h3>
     <p class="text-justify">ERP tiene diferentes funciones como:</p>
@@ -58,9 +56,10 @@
         <li>Facilitar el crecimiento de la empresa, ya que al tener procesos ordenados es más fácil escalar.</li>
     </ul>
 
-    <img src="img/org_erp.jpg" alt="Utilidad de ARP" class="img-fluid my-3">
+    <div class="text-center my-3">
+        <img src="img/org_erp.jpg" alt="Utilidad de ARP" class="img-fluid" width="800px">
+    </div>
 
-    
     <h3 class="mt-4">¿Qué funciones realizan?</h3>
         <div class="row row-cols-1 row-cols-md-2 g-4 my-4">
             <div class="col">
@@ -134,7 +133,10 @@
             </div>
         </div>
 
-
+    <div class="d-flex justify-content-center my-3">
+        <img src="img/crm.PNG" alt="Utilidad de ARP" class="img-fluid me-3" style="max-width: 49%;">
+        <img src="img/gestion_compra_venta.webp" class="img-fluid" style="max-width: 49%;">
+    </div>
     <h3 class="mt-4">¿Qué tipos de módulos hay? ¿Cómo los clasificarías? ¿Puedo instalar cualquier módulo?</h3>
     <p>Los módulos de un sistema ERP se pueden clasificar en tres grandes grupos, según su función y necesidad dentro de las empresas:</p>
 
@@ -164,25 +166,50 @@
 
     <p>Por otra parte, hemos de tener en cuenta la instalación del módulo ya que no se ha de instalar cualquiera ya que depende de varios factores importantes:</p>
     
-    <ul>
-        <li>
-            <strong>Necesidad real de la empresa:</strong>
-            Solo se deben instalar los módulos que vayan a utilizarse de manera efectiva. 
-        </li>
-        
-        <li>
-            <strong>Compatibilidad con el ERP:</strong>
-            Algunos módulos requieren versiones específicas del sistema o pueden necesitar integraciones especiales.
-        </li>
-        
-        <li>
-            <strong>Coste y presupuesto:</strong>
-            Cada módulo suele tener un costo extra (en licencias, instalación, personalización y mantenimiento).
-        </li>
-    </ul>
+    <div class="container mt-5">
+        <div id="erpCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card bg-light p-4 h-100">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Necesidad real de la empresa</h3>
+                            <p class="card-text mt-3">Solo se deben instalar los módulos que vayan a utilizarse de manera efectiva.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="card bg-light p-4 h-100">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Compatibilidad con el ERP</h3>
+                            <p class="card-text mt-3">Algunos módulos requieren versiones específicas del sistema o pueden necesitar integraciones especiales.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="card bg-light p-4 h-100">
+                        <div class="card-body">
+                            <h3 class="card-title text-black">Coste y presupuesto</h3>
+                            <p class="card-text mt-3">Cada módulo suele tener un costo extra (en licencias, instalación, personalización y mantenimiento).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#erpCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#erpCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
     
     
-    <h3 class="mt-4">¿Qué es la integración de módulos y por qué es beneficiosa?</h3>
+    <h3 class="mt-4">¿Qué es la integración de módulos?</h3>
 
     <p>La integración de módulos en un ERP se refiere a la conexión y comunicación fluida entre los diferentes módulos que conforman el sistema.
     Cada módulo como finanzas, ventas, inventario, producción, recursos Humanos maneja datos de su área específica, pero no funcionan de forma aislada, sino conectados entre sí. Gracias a esta integración, los datos que se generan en un módulo pueden ser utilizados automáticamente por otros módulos, manteniendo la coherencia, la actualización en tiempo real y evitando duplicidades o errores manuales.
@@ -218,9 +245,10 @@
 
 <!-- PUNTO 2 -->
 <h1 id="P2" class="mt-4">Estudio comparativo de productos ERP en el mercado</h1>
-
-<table>
-    <thead>
+<br>
+<div class="table-responsive">
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
       <tr>
         <th>Aspecto</th>
         <th>SAP</th>
@@ -235,7 +263,7 @@
 
     <tbody>
       <tr>
-        <td>Características</td>
+        <th scope="row">Características</th>
         <td>Ofrece amplias funciones empresariales, alta integración y analítica avanzada.</td>
         <td>Se integra con productos de Microsoft, permite la administración financiera, realización de ventas, gestión de inventario.</td>
         <td>Modular, personalizable y de código abierto.</td>
@@ -245,7 +273,7 @@
         <td>ERP especializado para manufactura y distribución. Este ofrece un nivel alto de personalización y control de procesos industriales.</td>
       </tr>
       <tr>
-        <td>Funcionalidades</td>
+        <th scope="row">Funcionalidades</th>
         <td>Finanzas, RRHH, activos empresariales, analítica de datos, CRM.</td>
         <td>Finanzas, compraventa, CRM, inventario, proyectos.</td>
         <td>Ventas, contabilidad, e-commerce, producción, marketing.</td>
@@ -255,7 +283,7 @@
         <td>Gestión de manufactura, inventario, cadena de suministro, planificación de producción, análisis financiero.</td>    
       </tr>
       <tr>
-        <td>Requisitos</td>
+        <th scope="row" >Requisitos</th>
         <td>Infraestructura robusta, servidores de gran potencia, bases de datos (como HANA o SQL entre otras).</td>
         <td>Servidores compatibles con Windows Server y SQL Server, además de conexión estable.</td>
         <td>Servidor básico o cloud hosting ligero, Python para personalizaciones y bases de datos PostgreSQL.</td>
@@ -265,7 +293,7 @@
         <td>Servidores locales o en la nube híbrida, con infraestructura compatible con SQL Server y necesidad de conectividad estable.</td>
       </tr>
       <tr>
-        <td>Orientación al mercado</td>
+        <th scope="row">Orientación al mercado</th>
         <td>Grandes empresas de sectores como manufactura, finanzas, salud o retail.</td>
         <td>Empresas pequeñas y medianas de diversos sectores como manufactura o retail.</td>
         <td>Startups y/o empresas pequeñas y medianas de todos los sectores.</td>
@@ -275,7 +303,7 @@
         <td>Empresas medianas industriales, especializadas en manufactura discreta y distribución.</td>
       </tr>
       <tr>
-        <td>Tipos de licencias</td>
+        <th scope="row">Tipos de licencias</th>
         <td>Licencias por usuario y módulos, incluyendo costos elevados con contratos a largo plazo.</td>
         <td>Licencias por usuario, con opción de pago mensual o compra perpetua (un único pago).</td>
         <td>Versión gratuita (Comunitaria) y de pago (Enterprise). Precio diferente por aplicación y usuario.</td>
@@ -285,7 +313,7 @@
         <td>Licencia por usuario, con opciones de compra perpetua (un único pago) o suscripción SaaS mensual/anual.</td>
       </tr>
       <tr>
-        <td>Precios aproximados</td>
+        <th scope="row">Precios aproximados</th>
         <td>Desde 2.790€ por usuario (depende de la personalización).</td>
         <td>Desde 65€ a 93€ al mes por usuario (Business Central SaaS).</td>
         <td>Gratis (Community) o desde 23€/mes por usuario aproximadamente(Enterprise).</td>
@@ -296,7 +324,7 @@
       </tr>
     </tbody>
 </table>
-
+<br>
 
 <!--PUNTO 3-->
 <h1 id="P3" class="mt-4">Conclusión</h1>
@@ -306,7 +334,9 @@
     
     Cada ERP ofrece soluciones distintas dependiendo del tamaño, sector y presupuesto de la empresa. No existe un sistema único que sea el mejor para todos, sino que la elección debe basarse en comparar funcionalidades, requisitos técnicos, orientación en cada sector y costos para encontrar el más adecuado a cada caso. Además, algunos ERPs ofrecen versiones modulares o en la nube, lo que puede ser una ventaja para empresas que buscan flexibilidad y menor inversión inicial.
 </p>
-
+<div class="text-center my-3">
+    <img src="img/log_arp.webp" alt="Logistica_arp" class="img-fluid" width="800px">
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
