@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,225 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>ERP</title>
 </head>
+
 <body class="container mt-4">
-    <h1 class="text-center">ERP</h1>
-    <h2 class="text-muted text-center"></h2>
-    <ul class="list-group my-4">
-        <li class="list-group-item"><a href="#P1">¿Qué es un ERP?</a></li>
-        <li class="list-group-item"><a href="#P2">¿Para qué sirve?</a></li>
-        <li class="list-group-item">¿Qué funciones realizan?</li>
-        <li class="list-group-item">¿Qué tipos de módulos hay? ¿Cómo los clasificarías? ¿Puedo instalar cualquier módulo?</li>
-        <li class="list-group-item">¿Qué es la integración de módulos y por qué es beneficiosa?</li>
-        <li class="list-group-item">Comparación de ERPs</li>
-    </ul>
-    <h3 id="P1" class="mt-4">¿Qué es un ERP?</h3>
-    <p class="text-justify">ERP tiene como significado planificación de recursos empresariales que viene a ser un conjunto de aplicaciones software integradas. Estas herramientas son útiles a la hora tener un espacio en la que se pueda reunir información para acceder de una manera más directa y eficiente tanto a la empresas como los propios trabajadores, se utiliza mucho en sectores como logística, contabilidad, control de proveedores, ventas, etc.</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ERP</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#P1">Introducción</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#P2">Estudio comparativo de productos ERP en el mercado</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#P3">Conclusión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<h1 id="P1" class="mt-4">Introducción</h1>
+
+    <h3 class="mt-4">¿Qué es un ERP?</h3>
+    <p class="text-justify">ERP tiene como significado planificación de recursos empresariales que viene a ser un conjunto de aplicaciones software integradas. Estas herramientas son útiles a la hora de tener un espacio en la que se pueda reunir,gestionar y coordinar información para acceder de una manera más directa y eficiente tanto para las diferentes empresas a la empresas como los propios trabajadores, se utiliza mucho en sectores como logística, contabilidad, control de proveedores, ventas, etc.</p>
+
     <img src="img/log_arp.webp" alt="Logistica_arp" class="img-fluid my-3">
-    <h3 id="P2" class="mt-4">¿Para qué sirve?</h3>
-    <p class="text-justify">Sirve para automatizar la mayoría de las prácticas de negocio relacionados.</p>
+
+
+    <h3 class="mt-4">¿Para qué sirve?</h3>
+    <p class="text-justify">ERP tiene diferentes funciones como:</p>
+
+    <ul class="list-group my-4">
+        <li>Centralizar la información en un solo lugar, de modo que no haya datos duplicados ni errores.</li>
+        <li>Automatizar procesos que antes se hacían manualmente (como calcular nóminas, gestionar inventarios o hacer facturas).</li>
+        <li>Mejorar la toma de decisiones, ya que ofrece información actualizada y precisa en tiempo real.</li>
+        <li>Ahorrar tiempo y dinero, aumentando la eficiencia y reduciendo los costos operativos.</li>
+        <li>Facilitar el crecimiento de la empresa, ya que al tener procesos ordenados es más fácil escalar.</li>
+    </ul>
+
     <img src="img/org_erp.jpg" alt="Utilidad de ARP" class="img-fluid my-3">
+
+    
+    <h3 class="mt-4">¿Qué funciones realizan?</h3>
+<div class="row row-cols-1 row-cols-md-2 g-4 my-4">
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Gestión Financiera</h5>
+                
+                <p class="card-text">Contabilidad, pagos, facturación, impuestos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Inventarios</h5>
+
+                <p class="card-text">Control de existencias, almacenes, entradas y salidas de productos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Compras y Ventas</h5>
+
+                <p class="card-text">Pedidos, proveedores, contratos, cotizaciones.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Recursos Humanos</h5>
+
+                <p class="card-text">Contratación, nóminas, ausencias, evaluaciones de desempeño.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Producción</h5>
+
+                <p class="card-text">Planificación de producción, control de calidad, tiempos de fabricación.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Atención al Cliente (CRM)</h5>
+
+                <p class="card-text">Seguimiento de clientes, historial de compras, resolución de problemas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Análisis y reportes</h5>
+
+                <p class="card-text">Creación de informes para medir el rendimiento del negocio.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <h3 class="mt-4">¿Qué tipos de módulos hay? ¿Cómo los clasificarías? ¿Puedo instalar cualquier módulo?</h3>
+    Los tipos de módulos de ERP que hay son tres clasificados como:
+    1.
+
+    <h3 class="mt-4">¿Qué es la integración de módulos y por qué es beneficiosa?</h3>
+
+
+    
+
+    
+<h1 id="P2" class="mt-4">Estudio comparativo de productos ERP en el mercado</h1>
+
+<table>
+    <thead>
+      <tr>
+        <th>Aspecto</th>
+        <th>SAP</th>
+        <th>Microsoft Dynamics NAV</th>
+        <th>Odoo</th>
+        <th>Oracle NetSuite</th>
+        <th>Infor CloudSuite</th>
+        <th>Acumatica</th>
+        <th>SYSPRO</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Características</td>
+        <td>Ofrece amplias funciones empresariales, alta integración y analítica avanzada.</td>
+        <td>Se integra con productos de Microsoft, permite la administración financiera, realización de ventas, gestión de inventario.</td>
+        <td>Modular, personalizable y de código abierto.</td>
+        <td>ERP 100% en el cloud o la nube, ofrece alta escalabilidad y un enfoque en gestión financiera principalmente.</td>
+        <td>Especializado en la industria manufacturera, más específicamente en la gestión de la cadena de suministro y la producción.</td>
+        <td>ERP moderno basado en la nube, enfocado principalmente en la flexibilidad, personalización y accesibilidad móvil.</td>
+        <td>ERP especializado para manufactura y distribución. Este ofrece un nivel alto de personalización y control de procesos industriales.</td>
+      </tr>
+      <tr>
+        <td>Funcionalidades</td>
+        <td>Finanzas, RRHH, activos empresariales, analítica de datos, CRM.</td>
+        <td>Finanzas, compraventa, CRM, inventario, proyectos.</td>
+        <td>Ventas, contabilidad, e-commerce, producción, marketing.</td>
+        <td>Finanzas, comercio electrónico, gestión de proyectos, RRHH, gestión de inventario.</td>
+        <td>Gestión de inventario, producción, planificación de recursos, análisis de datos, cadena de suministro.</td>
+        <td>Contabilidad, gestión financiera, CRM, e-commerce, gestión de producción.</td>
+        <td>Gestión de manufactura, inventario, cadena de suministro, planificación de producción, análisis financiero.</td>    
+      </tr>
+      <tr>
+        <td>Requisitos</td>
+        <td>Infraestructura robusta, servidores de gran potencia, bases de datos (como HANA o SQL entre otras).</td>
+        <td>Servidores compatibles con Windows Server y SQL Server, además de conexión estable.</td>
+        <td>Servidor básico o cloud hosting ligero, Python para personalizaciones y bases de datos PostgreSQL.</td>
+        <td>Acceso a internet de alta velocidad y navegador web moderno. No requiere hardware propio (100% basado en la nube).</td>
+        <td>Requiere servidor en la nube o infraestructura propia, además es compatible con la solución SaaS.</td>
+        <td>Infraestructura en la nube o local adaptable, con navegador web compatible. Requiere base de datos SQL Server o MySQL.</td>
+        <td>Servidores locales o en la nube híbrida, con infraestructura compatible con SQL Server y necesidad de conectividad estable.</td>
+      </tr>
+      <tr>
+        <td>Orientación al mercado</td>
+        <td>Grandes empresas de sectores como manufactura, finanzas, salud o retail.</td>
+        <td>Empresas pequeñas y medianas de diversos sectores como manufactura o retail.</td>
+        <td>Startups y/o empresas pequeñas y medianas de todos los sectores.</td>
+        <td>Empresas de todos los tamaños en sectores como servicios, comercio minorista y software.</td>
+        <td>Principalmente manufactura y distribución para empresas de servicios medianas y grande.</td>
+        <td>Empresas pequeñas y medianas en sectores como distribución, construcción o manufactura entre otros.</td>
+        <td>Empresas medianas industriales, especializadas en manufactura discreta y distribución.</td>
+      </tr>
+      <tr>
+        <td>Tipos de licencias</td>
+        <td>Licencias por usuario y módulos, incluyendo costos elevados con contratos a largo plazo.</td>
+        <td>Licencias por usuario, con opción de pago mensual o compra perpetua (un único pago).</td>
+        <td>Versión gratuita (Comunitaria) y de pago (Enterprise). Precio diferente por aplicación y usuario.</td>
+        <td>Suscripción anual basada en número de usuarios y módulos contratados.</td>
+        <td>Licencia basada en suscripción por usuario, con opciones para módulos adicionales según las necesidades del cliente.</td>
+        <td>Licencia basada en consumo de recursos y número de usuarios concurrentes. Utiliza un modelo flexible SaaS o local.</td>
+        <td>Licencia por usuario, con opciones de compra perpetua (un único pago) o suscripción SaaS mensual/anual.</td>
+      </tr>
+      <tr>
+        <td>Precios aproximados</td>
+        <td>Desde 2.790€ por usuario (depende de la personalización).</td>
+        <td>Desde 65€ a 93€ al mes por usuario (Business Central SaaS).</td>
+        <td>Gratis (Community) o desde 23€/mes por usuario aproximadamente(Enterprise).</td>
+        <td>Desde 92€/mes por usuario añadiendo tarifas de implementación.</td>
+        <td>Desde 150€/mes por usuario, dependiendo de la solución personalizada.</td>
+        <td>Desde 1.000€ a 1.500€ al año por usuario, dependiendo del nivel de servicios contratados.</td>
+        <td>Desde 120€/mes por usuario aproximadamente, sujeto a personalización y servicios extra.</td>
+      </tr>
+    </tbody>
+</table>
+
+
+
+<h1 id="P3" class="mt-4">Conclusión</h1>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
